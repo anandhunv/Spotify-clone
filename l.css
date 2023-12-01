@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.main{
+    background-color: black;
+    height: 900px;
+    width: 100%;
+    
+}
+.first{
+    width: 400px;
+    height: 800px;
+    background-color: aqua;
+    padding: 10px;
+}
+.a{
+    background-color: darkkhaki;
+    width: 390px;
+    height: 1000px;
+    overflow:hidden;
+
+}

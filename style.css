@@ -1,0 +1,673 @@
+@font-face {
+   font-family:myFont; /* Give the font a name */
+   src: url(font/GothamMedium_1.ttf); /* Specify the path to your font and the appropriate format */
+}
+@font-face {
+   font-family:myFontone; /* Give the font a name */
+   src: url(font/Gotham-Bold.otf); /* Specify the path to your font and the appropriate format */
+}
+
+@font-face {
+   font-family:myFonttwo; /* Give the font a name */
+   src: url(font/Gotham-Light.otf); /* Specify the path to your font and the appropriate format */
+}
+
+
+
+body {
+   background-color: black;
+   margin: 0;
+   padding: 0px;
+  
+   
+   font-family: 'GothamMedium', sans-serif;
+}
+
+* {
+   font-family: 'Gotham-Bold.otf', sans-serif;
+}
+
+.dividor {
+   display: flex;
+}
+
+.left {
+   width: 285px;
+   position: fixed;
+   height: 100%;
+   padding: 5px 5px 5px 5px;
+  
+}
+
+.left-top {
+   width: 285px;
+   height: 115px;
+   background-color: #121212;
+   border-radius: 8px;
+   
+}
+
+.left-top .icon {
+   padding-left: 20px;
+   padding-top: 15px;
+   
+   
+}
+.icon img{
+   width: 28px;
+   height: 40px;
+}
+
+.icon i {
+   display: flex;
+   color: white;
+   font-size: 20px;
+   margin-top: 20px;
+   
+
+}
+.hom{
+  
+   margin-top: -30px;
+   margin-left: 30px;
+ 
+}
+.hom p {
+   color: rgb(161, 157, 157);
+   font-size: 15px;
+   font-weight: 700;
+   font-family: myFont;
+
+}
+.icon .Home p {
+   display: inline;
+ 
+   margin-left: 18px;
+   margin-bottom: 10px;
+   font-weight: 700;
+   padding-top: 25px;
+   padding-bottom: 50px;
+   
+  
+}
+.hom p:hover{
+   color: white;
+   text-decoration: underline;
+}
+.icon i  p {
+   display: inline;
+   font-size: 15px;
+   margin-left: 28px;
+   margin-bottom: 10px;
+ 
+   font-family: myFont;
+ 
+}
+
+
+.Home {
+   text-decoration: none;
+  padding-top: 100px;
+}
+
+.Search {
+   text-decoration: none;
+   color: rgb(161, 157, 157);
+   font-family: myFont;
+}
+
+.icon a:hover {
+   color: white;
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.sec-left {
+   margin-top: 10px;
+  
+}
+.sec-icon .lib{
+   color: rgb(128, 128, 128);
+   margin-left: 20px;
+}
+.lib:hover{
+   color: #ffffff;
+}
+.lib:focus{
+background-color: rgb(233, 1, 1);
+}
+.sec-icon h6{
+   display: inline;
+   margin-left: 10px;
+   margin-bottom: 10px;
+    margin-top: 5px;
+    color: rgb(133, 133, 133);
+    font-family: myFontone;
+    font-size: 15px;
+ 
+}
+.sec-icon h6:hover{
+   color: #ffffff;
+}
+.sec-icon .plus{
+   font-size: 28px;
+  color: rgb(168, 163, 163);
+   margin-left: 50px;
+  font-weight: lighter;
+}   
+
+.sec-icon .arrow{
+   font-size: 19px;
+   color: rgb(168, 163, 163);
+   margin-left: 20px;
+   font-weight: lighter;
+
+}   
+.inside-sec {
+   
+   width: 265px;/* Adjusted width to match the left side */
+   height: 430px;
+   background-color:#121212;
+   border-radius: 10px;
+   padding: 10px 10px 10px 10px;
+ 
+}
+
+
+.play {
+   width: 99%;
+   justify-content: center;
+   height: 135px;
+   margin-top: 15px;
+   background-color: #242424;
+   border-radius: 10px;
+ padding-top: 3px;
+}
+.play h4{
+   color: white;
+   font-size: 15px;
+   margin-left: 20px;
+   padding-bottom: 1px;
+   font-family: myFont;
+ 
+}
+.play p{
+   color: white;
+   margin-left: 20px;
+   font-size: 12px;
+   padding-top: 1px;
+   font-family: myFont;
+   font-weight: lighter;
+   padding-bottom: 10px;
+   
+   
+}
+
+.broad {
+   width: 99%;
+   height: 169px;
+   margin-top: 20px;
+   background-color: #242424;
+   border-radius: 10px;
+   
+  
+}
+
+.create-play {
+   display: flex;
+   justify-content: center;
+   align-items: center; /* Center vertically */
+   width: 125px;
+   height: 30px;
+   border-radius: 40px;
+   margin-left: 20px;
+   background-color: rgb(255, 255, 255);
+}
+
+.create-play p {
+   padding: 5px 8px;
+   font-family: myFontone;
+   font-size: 13px; 
+   color: black;
+   margin: 0; /* Remove default margin to center text within .create-play */
+}
+.cp{
+   color: #121212;
+   text-decoration: none;
+}
+
+
+.broad h4{
+   padding-top: 20px;
+   padding-left: 20px;
+   font-size: 15px;
+   color: white;
+   font-family: myFontone;
+  
+   
+}
+.broad p{
+   color: white;
+   font-size: 12px;
+   margin-left: 20px;
+   font-family: myFont;
+   font-weight: lighter;
+   padding-bottom: 10px;
+}
+.create-bro {
+   
+   width: 150px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center; /* Center vertically */
+  
+   border-radius: 40px;
+   margin-left: 20px;
+   background-color: rgb(255, 255, 255);
+}
+.bro{
+   color: #121212;
+   text-decoration: none;
+}
+
+.create-bro p {
+   padding: 5px 8px;
+   font-family: myFontone;
+   font-size: 13px;
+   
+   color: black;
+   margin: 0;
+}
+
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 65px;
+  
+   padding: 10px ;
+   background-color:#000000;
+}
+.footer img{
+   width: 99%;
+}
+audio {
+   width: 100px;
+   height: 50px;
+   overflow: hidden;
+   color: red;
+   background-color: blue;
+}
+
+.right {
+   margin-left: 300px; /* Adjusted margin to make space for the left side */
+   flex: 1;
+   .right {
+      flex: 1;
+     
+   }
+   
+   .content-container {
+      max-height: calc(100vh - 105px); /* Adjust the height according to your layout */
+      overflow-y: auto; /* Enable vertical scrolling if content overflows */
+      padding: 10px; /* Add padding to create a space between the content and the container edges */
+   }
+   
+   
+}
+.right{
+   width: 100%;
+   height: 2300px;
+border-radius: 8px;
+margin-top: 5px;
+margin-right: 5px;
+background-attachment: fixed;
+background: #131212;
+
+  
+   
+}
+
+.container {
+      text-align: center;
+   padding: 70px 22px 10px 22px;
+   max-height: 500px;/* Adjust the height as needed to show all card images */
+   overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  
+}
+
+.container .card {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 10px;
+   height: auto; /* Remove height constraint to allow content to expand */
+}
+
+
+
+.container h2 {
+   display: flex;
+   margin-left: 10px;
+   color: white;
+   margin-bottom: -25px;
+   font-family: myFontone;
+   font-size: 21px;
+  
+}
+.container h2:hover{
+   text-decoration: underline;
+}
+.container p a{
+   
+   margin-top: 1px;
+   text-decoration: none;
+   color: #c4b7b7;
+font-weight: bolder;
+font-size: 14px;
+font-family: myFontone;
+   margin-left: 835px;
+}
+.container p a:hover{
+text-decoration: underline;
+}
+
+.card .movie h4 {
+   font-size: 14px;
+   color: white;
+   font-family: myFontone;
+   text-align: left; /* Center-align the text */
+   margin-bottom: 1px;
+   margin-top: 10px;
+   margin-left: 10px;
+   white-space: nowrap; /* Prevent text from wrapping */
+   overflow: hidden; /* Hide the overflowing text */
+   text-overflow: ellipsis; /* Display ellipsis for overflow */
+
+  
+  
+}
+.card .movie p {
+   font-size: 12px;
+   font-weight: bolder;   font-family: myFonttwo;
+   color: rgb(122, 122, 122);
+margin-top: 10px;
+margin-left: 10px;
+   text-align: left; /* Center-align the text */
+  
+  
+}
+.card a{
+   width: 20%;
+   height: 270px;
+  text-decoration: none;
+   background-color: #1b1a1a;
+   border-radius: 10px;
+   padding: 10px 10px 10px 10px;
+
+
+}
+.card a:hover{
+ 
+   background-color: rgb(30, 31, 31);
+ 
+}
+
+.movie {
+   position: relative;
+  
+}
+
+.play-icon {
+  
+   position: absolute;
+   top: 45%; /* Adjust as needed to position the icon vertically */
+   left: 65%; /* Adjust as needed to position the icon horizontally */
+   transform: translate(0,0);
+  
+       opacity: 0;/* Initially hide the play icon  */
+       transition: transform 0.5s, opacity 0.5s; /* Add a smooth transition for the opacity change */
+}
+
+.movie:hover .play-icon {
+   transform: translate(-0%, -20%) ;
+      opacity: 1; /* Show the play icon on hover */
+}
+
+/* .border{ 
+   width: 20%;
+   height: 270px;
+  
+   background-color: #121212;
+   border-radius: 10px;
+   padding: 10px 10px 10px 10px;
+/* } */
+ .border .movie img{
+   text-align: center;
+   width: 170px; /* Width for each movie container */
+   border-radius: 10px;
+   margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.hy{
+display: flex;
+   width: 100%;
+   height: 170px;
+   margin-top: 80px;  
+  
+}
+.one p{
+   margin-block: 10px;
+   color: #727272;
+margin-left: 50px;
+font-family: myFonttwo;
+font-size: 15px;
+font-weight: bolder;
+
+}
+.one p:hover{
+   color: white;
+   text-decoration: underline;
+}
+
+.two p{
+ 
+   margin-block: 10px;
+   margin-left: 140px;
+   color: #727272;
+   font-family: myFonttwo;
+font-size: 15px;
+font-weight: bolder;
+   
+
+}
+.two p:hover{
+   color: white;
+   text-decoration: underline;
+}
+.three p{
+ 
+   margin-block: 10px;
+   margin-left: 140px;
+   color: #727272;
+   font-family: myFonttwo;
+font-size: 15px;
+font-weight: bolder;
+
+}
+.three p:hover{
+   color: white;
+   text-decoration: underline;
+}
+.four{
+   display:inline-flex;
+   margin-left: 120px;
+
+}
+.four .round{
+   display: flex;
+   justify-content: center; /* Center content horizontally */
+   align-items: center; /* Center content vertically */
+   margin-left: 10px;
+   background-color: #302e2e;
+   width: 40px;
+   height: 40px;
+   border-radius: 50% ;
+}
+.four .round:hover{
+   background-color: #727272;
+}
+.four i{
+
+   color: #ffffff;
+   font-size: 18px;
+ 
+
+}
+.footer-line{
+  
+   width: 935px;
+   height: 40px;
+}
+.line{
+   background-color: #383737;
+   width: 870px;
+   height: 1px;
+   margin-top: 35px;
+   margin-left: 60px;
+   
+}
+
+.last{
+  
+   height: 40px;
+   display: flex;
+  margin-inline: 40px;
+
+}
+.last p{
+   color: #727272;
+   font-size: 12px;
+  margin-left: 10px;
+  font-family: myFont;
+
+}
+.last p:hover{
+   cursor: pointer;
+   color: white;
+  }
+.spotify-foot p{
+ margin-left: 300px;
+ font-family: 12px;
+ justify-content:right;
+ font-family: myFont;
+ 
+}
+
+  .head{
+   background-color:#121212;
+   width: 972px;
+   height: 70px;
+   position: fixed; /* or sticky */
+    border-radius: 8px;
+    z-index: 900; 
+    
+  }
+  
+  .head-arrow .round{
+   display: flex;
+   justify-content: center; /* Center content horizontally */
+   align-items: center; /* Center content vertically */
+   margin-left: 10px;
+   background-color: #1b1b1b;
+   width: 30px;
+   height: 30px;
+   border-radius: 50% ;
+}
+.head-bell .round{
+   display: flex;
+   justify-content: center; /* Center content horizontally */
+   align-items: center; /* Center content vertically */
+   margin-left: 10px;
+   background-color: #000000;
+   width: 35px;
+   height: 35px;
+   border-radius: 50% ;
+}
+.head-user .round{
+   display: flex;
+   justify-content: center; /* Center content horizontally */
+   align-items: center; /* Center content vertically */
+   margin-left: 10px;
+   background-color: #000000;
+   width: 35px;
+   height: 35px;
+   border-radius: 50% ;
+}
+.head-arrow{
+   margin: 30px;
+   margin-right: 10px;
+margin-top: 20px;
+   display:inline-flex;
+}
+
+
+
+.head-premium {
+   display: flex;
+   justify-content: center;
+   align-items: center; /* Center vertically */
+   width: 130px;
+   height: 30px;
+   border-radius: 40px;
+   margin-left: 450px;
+   background-color: rgb(255, 255, 255);
+}
+
+.head-premium p {
+   padding: 5px 8px;
+   font-family: myFontone;
+   font-size: 13px; 
+   color: black;
+   margin: 0; /* Remove default margin to center text within .create-play */
+}
+.cp,.install{
+   color: #121212;
+   text-decoration: none;
+}
+
+.head-install {
+   display: flex;
+   justify-content: baseline;
+   align-items: center; /* Center vertically */
+   width: 130px;
+   height: 30px;
+   border-radius: 40px;
+   margin-left: 20px;
+   background-color: rgb(0, 0, 0);
+}
+.head-install:hover{
+   width: 132px;
+   height: 32px;
+}
+.head-premium:hover{
+   width: 132px;
+   height: 32px;
+}
+.head-install img{
+   margin-left: 10px;
+ 
+}
+
+.head-install p {
+   padding: 5px 8px;
+   font-family: myFontone;
+   font-size: 13px; 
+   color: rgb(255, 255, 255);
+  margin-left: -5px;
+}
